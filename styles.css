@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('/IMAGES/IMG-20241011-WA0008.jpg'); /* Replace with your image path */
+    background-size: cover; /* Make the image cover the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+
+header {
+    background: #4CAF50; /* Green background for the header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+nav {
+    background: #388E3C; /* Darker green for the navbar */
+    width: 200px; /* Fixed width for vertical nav */
+    position: fixed; /* Make the nav fixed on the left side */
+    height: 100%; /* Full height */
+    padding-top: 20px; /* Spacing from the top */
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin: 10px 0; /* Vertical spacing between nav items */
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Padding for clickable area */
+    display: block; /* Make the entire area clickable */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+    background: #66BB6A; /* Lighter green on hover */
+}
+
+main {
+    margin-left: 220px; /* Add margin to accommodate the fixed nav */
+    padding: 20px; /* Padding for main content */
+}
+
+.hero {
+    background-image: url('IMAGES/IMG-20241011-WA0008.jpg'); /* Replace with your image path */
+    background-size: cover; /* Make the image cover the section */
+    background-position: center; /* Center the image */
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(114, 82, 230);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+.contacts {
+    background-image: url('IMAGES/kitchen.jpg'); /* Replace with your image path */
+    background-size: cover; /* Make the image cover the section */
+    background-position: center; /* Center the image */
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(114, 82, 230);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+
+footer {
+    background: #288802;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .logo {
+        width: 80px; /* Smaller logo on mobile */
+    }
+
+    nav {
+        width: 100%; /* Full width on smaller screens */
+        position: relative; /* Reset position */
+        height: auto; /* Auto height */
+    }
+
+    main {
+        margin-left: 0; /* Remove margin for main content */
+    }
+
+    .hero {
+        height: 250px; /* Adjust hero height for smaller screens */
+    }
+
+    .hero h2 {
+        font-size: 1.5em; /* Smaller font size for headings */
+    }
+
+    .hero p {
+        font-size: 1em; /* Smaller font size for paragraphs */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px; /* Reduced padding */
+    }
+
+    .hero h2 {
+        font-size: 1.2em; /* Even smaller for extra small screens */
+    }
+
+    .hero p {
+        font-size: 0.9em; /* Smaller paragraph font size */
+    }
+}
+.container my-5{
+    color: rgb(16, 155, 62);
+}

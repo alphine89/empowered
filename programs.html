@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs - Empowered Citizen CBO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            position: relative;
+            overflow: hidden; /* Prevent scrollbars */
+        }
+        .navbar, .footer {
+            background-color: rgba(76, 175, 80, 0.8); /* Slightly transparent */
+        }
+        .navbar-brand, .nav-link, .footer p {
+            color: white;
+        }
+        .container {
+            height: calc(100% - 160px); /* Adjust according to your navbar and footer height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 1; /* Content above the background images */
+            color: white; /* Change text color for visibility */
+            text-align: center; /* Center text */
+        }
+        .left-image, .right-image {
+            position: absolute;
+            width: 60%; /* Cover the left/right area */
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            z-index: 0; /* Behind the content */
+        }
+        .left-image {
+            background-image: url(IMAGES/girl.jpg); /* Your left image */
+            transform: rotate(45deg); /* Adjust the angle as needed */
+            left: -30%; /* Position to touch the corner */
+            top: 0;
+        }
+        .right-image {
+            background-image: url(IMAGES/act5.jpg); /* Your right image */
+            transform: rotate(-45deg); /* Adjust the angle as needed */
+            right: -30%; /* Position to touch the corner */
+            top: 0;
+        }
+        .social-icons a {
+            color: white; /* Change color of social icons */
+            margin: 0 10px; /* Add spacing between icons */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Empowered Citizen CBO</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="aboutUs.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+                <li class="nav-item"><a class="nav-link" href="management.html">Management</a></li>
+                <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+                <li class="nav-item"><a class="nav-link" href="partners.html">Partners</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="left-image"></div>
+<div class="right-image"></div>
+
+<div class="container">
+    <h2 style="color: blue;">Programs</h2>
+    <h5 style="color: brown;">Rocket Stove Training</h5>
+    <p style="color: rgb(43, 9, 167);">Training sessions to promote efficient cooking and reduce firewood use.</p>
+    <h5 style="color: brown;">Girl Child Empowerment</h5>
+    <p style="color: rgb(14, 4, 105);">Mentorship and health initiatives to support young girls in our communities.</p>
+</div>
+
+<footer class="footer text-center py-4">
+    <div class="social-icons">
+        <a href="https://youtube.com/@mkulimabilajembe?si=RJIyCQ_pPYV2wrRb" target="_blank" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100071715164116" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+    </div>
+    <p>© 2024 Empowered Citizen CBO. All rights reserved.</p>
+    <i>designed-Alphine</i>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
